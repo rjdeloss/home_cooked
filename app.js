@@ -15,4 +15,4 @@ mongoose
 app.listen(port, () => console.log(`server is running on port:${port}`));
 
 // Routes
-app.get('/', ( req, res) => res.send('Hello World'));
+app.get('/', (req, res) => res.send('Hello World'));
