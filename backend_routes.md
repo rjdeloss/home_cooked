@@ -15,20 +15,20 @@
 * `POST /api/session` - log in 
 *  `DELETE /api/session` - sign out 
 
-### `restaurants`
+### `classes`
 
-* `GET /api/restaurants` - index of restaurants
-* `GET /api/restaurants/:id` - shows a restaurant
+* `GET /api/classes` - index of classes
+* `GET /api/classes/:id` - shows a class
 
 
-### `reservations` 
+### `bookings` 
 
-* `GET /api/restaurants/:id/reservations` - shows reservations available to users 
-* `POST /api/restaurants/:id/reservations` - creates reservations by user
-* `DELETE` /api/restaurants/:id/reservations/:id`  - deletes reservation 
+* `GET /api/classes/:id/bookings` - shows bookings available to users 
+* `POST /api/classes/:id/bookings` - creates bookings by user
+* `DELETE` /api/classes/:id/bookings/:id`  - deletes reservation 
 
 ### `reviews`
 
-* `GET /api/restaurants/:id/reviews` - shows reviews written by users 
-* `POST /api/restaurants/:id/reviews` - creates review by user
-* `DELETE /api/restaurants/:id/reviews/:id` - deletes review
+* `GET /api/classes/:id/reviews` - shows reviews written by users 
+* `POST /api/classes/:id/reviews` - creates review by user
+* `DELETE /api/classes/:id/reviews/:id` - deletes review
