@@ -12,8 +12,8 @@ The following routes, defined in App, will render in the main component
 
 * `/` 
     * LandingPage
-    * `/restaurants` 
-        * RestaurantsIndex
+    * `/classes` 
+        * classesIndex
             * RestaurantIndexItem
         * ReservationSearch
     * `/login`
@@ -21,13 +21,13 @@ The following routes, defined in App, will render in the main component
     * `/signup`
         * SessionForm
 
-* `/restaurants/`
+* `/classes/`
     * CondensedReservationSearch
-    * RestaurantsIndex
+    * classesIndex
         * RestaurantIndexItem
         * RestaurantReservationSelection
 
-* `/restaurants/:restaurantId`
+* `/classes/:classId`
     * Restaurant Profile
     * RestaurantReviewIndex
         * RestaurantReviewIndexItem
