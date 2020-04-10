@@ -19,6 +19,9 @@
 
 * `GET /api/classes` - index of classes
 * `GET /api/classes/:id` - shows a class
+* ``POST /api/classes` - Create class
+* ``PATCH /api/classes/:id` - Edit class
+* ``DELETE /api/classes/:id` - Remove class
 
 
 ### `bookings` 
